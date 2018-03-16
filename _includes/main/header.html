@@ -1,9 +1,14 @@
 <header>
     <div class="menu">
       <div class="logo">
+        <!-- <object type="image/jpg" data="{{ site.blog.logo_path | relative_url }}" class="logosvg">Your browser does not support svg images</object> -->
 
         <a href="{{ '/' | prepend: site.baseurl }}">{{ site.blog.title }}</a>
-        <object type="image/svg+xml" data="{{ site.blog.logo_path | relative_url }}" class="logosvg">Your browser does not support svg images</object>
+        <object type="image/jpg" data="{{ site.blog.logo_path | relative_url }}" class="logosvg">Your browser does not support svg images</object>
+        <!-- <object type="image/svg+xml" data="{{ site.blog.logo_path | relative_url }}" class="logosvg">Your browser does not support svg images</object> -->
+        <!-- <img src="{{ site.blog.logo_path }}" alt="Girl in a jacket" style="width:10px;height:10px;"> -->
+        <!-- <img src="assets/img/current_square.jpg" alt="Me" width="10" height="10"> -->
+
       </div>
 
         <ul>
