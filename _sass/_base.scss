@@ -6,10 +6,10 @@
 *::after {
   box-sizing: border-box;
 }
-::selection {
-  color: var(--bg-color);
-  background-color: var(--text-color);
-}
+// ::selection {
+//   color: var(--bg-color);
+//   background-color: var(--text-color);
+// }
 
 body {
     font-size: $base-font-size;
